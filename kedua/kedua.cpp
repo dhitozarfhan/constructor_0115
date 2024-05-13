@@ -41,8 +41,8 @@ void mahasiswa::printAll()
 
 int main()
 {
-	mahasiswa mhs1("bambang pamungkas");
-	mahasiswa mhs2("hasan aftershine");
+	mahasiswa mhs1("dhito");
+	mahasiswa mhs2("bambang pamungkas");
 	mahasiswa mhs3("bambang lipuro");;
 	mahasiswa mhs4("bernad bear");
 
