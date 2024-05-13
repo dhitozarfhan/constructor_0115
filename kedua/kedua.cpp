@@ -25,3 +25,32 @@ public:
 
 };
 
+int mahasiswa::nim = 20230140115;
+
+void mahasiswa::setID()
+{
+	id = ++nim;
+}
+
+void mahasiswa::printAll()
+{
+	cout << "ID = " << id << endl;
+	cout << "nama = " << nama << endl;
+	cout << endl;
+}
+
+int main()
+{
+	mahasiswa mhs1("bambang pamungkas");
+	mahasiswa mhs2("hasan aftershine");
+	mahasiswa mhs3("bambang lipuro");;
+	mahasiswa mhs4("bernad bear");
+
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
+
+	cout << "akses dari luar object = " << mahasiswa::getNim() << endl;
+}
+
