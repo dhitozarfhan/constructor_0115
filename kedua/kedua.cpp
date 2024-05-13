@@ -1,8 +1,9 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-class mahasiwa
-{
+
+class mahasiswa {
 private:
 	static int nim;
 public:
@@ -15,5 +16,12 @@ public:
 	static void setNim(int pNim) { nim = pNim; }
 	static int getNim() { return nim; }
 
-	mahasiwa(string pnama) :nama(pnama) { setID(); }
+	mahasiswa(string pnama)
+
+	{
+		nama = pnama;
+		setID();
+	}
+
 };
+
