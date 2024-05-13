@@ -43,5 +43,5 @@ int main() {
 	angka *ptrbelajarcpp = new angka(5);
 	delete ptrbelajarcpp;
 
-	return;
+	return 0;
 }
